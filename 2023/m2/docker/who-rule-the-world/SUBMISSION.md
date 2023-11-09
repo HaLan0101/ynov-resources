@@ -210,6 +210,12 @@ On crée le fichier Dockerfile dans le dossier "result" pour construire l'image
 
 ## Résultat
 
+* On ajoute le port forwading dans la machine : 
+
+![image25](images/image25.png)
+
+* Le résultat : 
+
 ![image22](images/image22.png)
 
 ![image23](images/image23.png)
