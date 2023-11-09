@@ -12,17 +12,17 @@ Le projet "Who Rule The World app? CATs or DOGs?" est une application distribué
 Le projet utilise Python, Node.js, .NET, Redis, et Postgres.
 
 ## Sommaire
-- [Clone projet](#cloneprojet)
-- [Création de private registry](#createprivateregistry)
-- [Worker service](#workerservice)
-- [Vote service](#voteservice)
-- [Seed-data service](#seeddataservice)
-- [Result service](#resultservice)
-- [Construit l'image depuis DockerFile](#createimage)
-- [Publication dans private registry](#privateregistry)
-- [Publication dans Docker Hub](#dockerhub)
-- [Création de Docker compose](#dockercompose)
-- [Résultat](#resultat)
+- [Clone projet](#clone-projet)
+- [Création de private registry](#création-de-private-registry)
+- [Worker service](#worker-service)
+- [Vote service](#vote-service)
+- [Seed-data service](#seed-data-service)
+- [Result service](#result-service)
+- [Construit l'image depuis DockerFile](#construit-limage-depuis-dockerfile)
+- [Publication dans private registry](#publication-dans-private-registry)
+- [Publication dans Docker Hub](#publication-dans-docker-hub)
+- [Création de Docker compose](#création-de-docker-compose)
+- [Résultat](#résultat)
 
 ## Clone projet 
 
@@ -71,7 +71,7 @@ On crée le fichier Dockerfile dans le dossier "Vote" pour construire l'image
 
 * On le sauvegarde et voici le code dans ce fichier :
 
-![image3](image/image3.png)
+![image3](images/image3.png)
 
 
 ## Seed-data service
@@ -103,9 +103,9 @@ On crée le fichier Dockerfile dans le dossier "result" pour construire l'image
 
 * docker-compose-build.yaml:
 
-![image7](image7.png)
+![image7](images/image7.png)
 
-![image6](Images/image6.png)
+![image6](images/image6.png)
 
 
 ## Publication dans private registry
