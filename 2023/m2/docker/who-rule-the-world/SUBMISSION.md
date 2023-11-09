@@ -76,7 +76,7 @@ On crée le fichier Dockerfile dans le dossier "Vote" pour construire l'image
 
 ## Seed-data service
 
-On crée le fichier Dockerfile dans le dossier "seed-date" pour construire l'image
+On crée le fichier Dockerfile dans le dossier "seed-data" pour construire l'image
 
 * Voici les commandes :
 `nano Dockerfile`
@@ -139,7 +139,7 @@ On crée le fichier Dockerfile dans le dossier "result" pour construire l'image
 
 ![image11](images/image11.png)
 
-* On vérifie si tous les images soient publiés bien dans le private registry : 
+* On vérifie si toutes les images ont bien été publiées dans le private registry : 
 
 `curl localhost:5000/v2/_catalog`
 
